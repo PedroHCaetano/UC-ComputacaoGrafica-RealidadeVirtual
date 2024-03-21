@@ -3,7 +3,8 @@ from OpenGL.GL import *
 
 if not glfw.init():
     raise Exception("GLFW não pode ser executado")
-window = glfw.create_window(1000, 600, "Uma janela para o seu bruxo", None, None)
+window = glfw.create_window(1000, 600, "Uma janela para o seu bruxo", None, None) 
+# Diminui a dimensão da janela
 
 glfw.set_window_pos(window, 400, 100)
 glfw.make_context_current(window)
