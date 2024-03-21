@@ -1,5 +1,6 @@
 import glfw
 from OpenGL.GL import *
+import numpy as np
 
 if not glfw.init():
     raise Exception("GLFW não pode ser executado")
