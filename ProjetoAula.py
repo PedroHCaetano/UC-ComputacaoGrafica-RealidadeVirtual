@@ -11,8 +11,8 @@ glfw.make_context_current(window)
 def center_window(window):
     # Obter dimensões da tela
     monitor = glfw.get_primary_monitor()
-    screen_dimension = glfw.get_video_mode(monitor)
-    screen_width, screen_heigth = screen_dimension.size
+    video = glfw.get_video_mode(monitor)
+    screen_width, screen_heigth = video.size
 
     # Obter dimensões da janela
     window_width, window_heigth = glfw.get_window_size(window)
