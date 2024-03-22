@@ -33,8 +33,7 @@ center_window(window)
 glfw.make_context_current(window)
 vertices = [-0.5, -0.5, 0.0,
             0.5, -0.5, 0.0,
-            0.5, 0.5, 0.0
-            ]
+            0.5, 0.5, 0.0]
 colors = [1.0, 0.5, 0.6,
           0.3, 0.6, 1.0,
           0.0, 0.0, 1.0]
