@@ -13,6 +13,6 @@ B = np.array( [[3, 7, 1],
 print(f"\n B = {B}")
 
 # calculo final
-#print(f"\n A * B = {A.dot(B)}")
+
 C = np.dot(A, B)
 print(f"\n A * B = {C}")
